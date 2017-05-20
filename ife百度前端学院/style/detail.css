@@ -1,0 +1,263 @@
+#content{
+    clear: left;
+    margin:0 auto;
+    position: relative;
+    width:990px;
+}
+.janeshop{
+    height:560px;
+    overflow:hidden;
+    padding:10px 0;
+}
+#jnCatalog {
+    float: left;
+    height: 560px;
+    margin: 0 11px 0 0;
+    overflow: hidden;
+    width: 187px;
+}
+#jnCatalog h2{
+    height: 30px;
+    line-height: 30px;
+    color: #fff;
+    font-size:12px;
+    text-indent:13px;
+    background: #6e6e6e;
+}
+.jnCatainfo{
+    border:#6e6e6e;
+    border-style:none solid solid;
+    border-width:0 1px 1px ;
+    height:524px;
+    overflow: hidden;
+    padding:5px 10px 0;
+    width:165px;
+}
+.jnCatainfo h3{
+    border-bottom:1px solid #eee;
+    height:24px ;
+    line-height:24px ;
+    width:164px;
+}
+.jnCatainfo ul{
+    float: left;
+    padding:0 2px 8px ;
+}
+.jnCatainfo li{
+    color: #aeadae;
+    float:left;
+    height:24px ;
+    width:79px ;
+    overflow: hidden;
+    position: relative;
+}
+.jnCatainfo li a{
+    color: #444;
+}
+.jnCatainfo li a:hover{
+    color: #008cd7;
+    text-decoration: none;
+}
+.jnCatainfo li a.promoted{
+    color: #f9044e;
+}
+.jnCatainfo li.hot{
+    background: url("../images/hot.gif") no-repeat scroll 0 0 transparent;
+    height:16px ;
+    position: absolute;
+    top:0;
+    width:21px ;
+}
+#jnProitem{
+    float: left;
+    width: 312px;
+    height:560px;
+    display: inline;
+}
+#jnDetails{
+    float: left;
+    display: inline;
+    overflow: hidden;
+    width:468px ;
+}
+#jnProitem .jqzoomWrap{
+    border: 1px solid #bbb;
+    cursor: pointer;
+    float: left;
+    padding:0;
+    position: relative;
+}
+#jnProitem span{
+    clear: both;
+    display: block;
+    padding-bottom:10px ;
+    padding-top:10px ;
+    text-align: center;
+    width: 320px;
+}
+#jnProitem ul.imgList{
+    height:80px ;
+    list-style: none;
+    overflow: hidden;
+}
+#jnProitem ul.imgList li{
+    float: left;
+    margin-right:10px ;
+}
+#jnProitem .imgList li img{
+    width:60px ;
+    height:60px ;
+    padding:1px ;
+    background: #eee;
+    cursor: pointer;
+}
+#jnProitem ul.imgList li img:hover{
+    padding:1px ;
+    background: #999;
+}
+.tab{
+    clear: both;
+    float: left;
+    height:230px ;
+    overflow: hidden;
+    width:310px ;
+}
+.tab .tab_menu li{
+    float: left;
+    text-align: center;
+    cursor: pointer;
+    list-style:none;
+    padding:1px 6px ;
+    margin-right:4px ;
+    background: #f1f1f1;
+    border:1px solid #898989;
+    border-bottom:none;
+}
+.tab .tab_menu li.hover{
+    background:#6d84b4;
+}
+.tab .tab_menu li.selected{
+    color: #fff;
+    background: #6d84b4;
+}
+.tab .tab_box{
+    clear:both;
+    border:1px solid #898989;
+}
+.tab .hide{
+    display: none;
+}
+.jnProDetail {
+    padding:0 10px 10px 10px ;
+}
+.jnProDetail .jnProDetailList li{
+    float: left;
+    line-height: 25px;
+    width:100%;
+}
+.jnProDetail .jnProDetailList li .del{
+    color: #404040;
+    text-decoration: line-through;
+    font-size:12px;
+}
+#jnDetails .jnProDetailList .tbDetailPrice strong{
+    font-weight: 700;
+    color:#FF5500;
+    font-size: 24px;
+    vertical-align: middle;
+    margin-right: 5px;;
+}
+#jnDetails .jnProDetailList strong{
+    font-weight: 400;
+}
+#jnDetails .jnProDetailList .color_change li{
+    float: left;
+    margin-right: 10px;
+    width: 40px;
+    list-style: none;
+}
+#jnDetails .jnProDetailList .color_change img{
+    width: 30px;
+    height:30px;
+    border:1px solid #bbb;
+    padding: 1px;
+    background: #eee;
+    cursor: pointer;
+}
+#jnDetails .jnProDetailList .pro_size li{
+    float: left;
+    width:30px;
+    height: 30px;
+    list-style:none;
+    border:1px solid #aaa;
+    text-align: center;
+    line-height: 30px;
+    margin-right:6px;
+    cursor: pointer;
+    display:block;
+    overflow: hidden;
+}
+.rating{
+    overflow: hidden;
+    width:80px;
+    height: 16px;;
+    margin:0 0 20px 0;
+    clear:both;
+    position: relative;
+    background:url("../images/star-matrix.gif") no-repeat 0 0;
+}
+.rating li{
+    cursor: pointer;
+    float: left;
+    text-indent: -999em;
+}
+.jnCatainfo li .hot {
+    background: url("../images/hot.gif") no-repeat scroll 0 0 transparent;
+    height: 16px;
+    position: absolute;
+    top: 0;
+    width: 21px;
+}
+#jnDetails .jnProDetailList .color_change img.hover{
+    border:1px solid #ff131f;
+}
+.pro_size ul li.hover{
+    background: #f45;
+}
+ul.rating li.one a {
+    left: 0;
+}
+ul.rating li a {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 16px;
+    height: 16px;
+    text-decoration: none;
+    z-index: 200;
+}
+.nostar {background-position:0 0}
+.onestar {background-position:0 -16px}
+.twostar {background-position:0 -32px}
+.threestar {background-position:0 -48px}
+.fourstar {background-position:0 -64px}
+.fivestar {background-position:0 -80px}
+
+ul.rating li.one a {left:0}
+ul.rating li.two a {left:16px;}
+ul.rating li.three a {left:32px;}
+ul.rating li.four a {left:48px;}
+ul.rating li.five a {left:64px;}
+ul.rating li a:hover {
+    z-index:2;
+    width:80px;
+    height:16px;
+    overflow:hidden;
+    left:0;
+    background: url(../images/star-matrix.gif) no-repeat 0 0
+}
+ul.rating li.one a:hover {background-position:0 -96px;}
+ul.rating li.two a:hover {background-position:0 -112px;}
+ul.rating li.three a:hover {background-position:0 -128px}
+ul.rating li.four a:hover {background-position:0 -144px}
+ul.rating li.five a:hover {background-position:0 -160px}

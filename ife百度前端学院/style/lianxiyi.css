@@ -1,0 +1,181 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding:0;
+}
+body{
+	font-family:"Tahoma","Microsoft YaHei","黑体","宋体",sans-serif;
+	font-size: 14px;
+	letter-spacing:0.5px;
+	line-height:inherit;
+}
+header{
+	height: 60px;
+	width:auto;
+	background-color:#373131;
+	margin: 0;
+}
+header img{
+float: left;
+	margin-left: 30px;
+}
+header ul{
+	float: right;
+	margin-right: 10px;
+	
+}
+header li {
+	float: left;
+	margin: 20px 10px;
+	font-size: 12px;	
+}
+header a{
+	color: aliceblue;
+	text-decoration: none;
+}
+header #si{
+	color:#7E7A7A;
+}
+article{
+	background-color:#DCDCDC;
+	padding: 5px 0;
+}
+article .wen{
+	margin: 20px;
+	background-color:#FFFFFF;
+	border:2px outset #C9C9C9;
+    padding: 30px 20px;
+}
+article .wen h2{
+	font-weight:bold;
+	margin:10px 0;
+}
+article .wen h3{
+	color:#7E7E7E;
+	margin: 10px 0;
+}
+article .wen>span{
+	color:#A7A7A7;
+	font-size: 13px;
+}
+article p{
+	margin:10px 0;
+	text-indent: 2em;
+	line-height: 30px;
+	color: #000000;
+}
+article .wen ul{
+   list-style: none;
+	margin: 10px 20px;
+}
+article .wen ul li{
+	margin: 5px ;
+}
+article .tu div{
+	border: 1px solid #AFADAD;
+	margin: 10px 10px 10px 50px;
+	padding: 10px;
+	width: 250px;
+	text-align: center;
+}
+article .tu div span{
+	display: inline-block;
+	margin: 10px 0 20px 0;
+}
+article .wen ol{
+	margin:10px 10px 10px  40px;
+}
+article .wen ol li{
+	font-weight: 600;
+	margin: 10px;
+}
+table{
+	width: 100%;
+	border: 1px solid #9C9898;
+	border-collapse:collapse;
+	caption-side:top left;
+}
+table,th,td{
+    border: 1px solid #D7D7D7;
+	height: 30px; 	
+}
+table th{
+	background: #000000;
+	color:#FFFFFF;
+    text-align: left;
+}
+table #zh{
+	background: #D7D7D7;
+}
+.form>span{
+	float: left;
+	margin-top: 2px;
+	height: 40px;
+	width: 4px;
+	background:#ABABAB;
+}
+article .form h2{
+	font-size: 16px;
+	margin-left: 20px;
+}
+.form .table{
+	display: table;
+	margin: 0 auto;
+	padding: 10px;
+}
+.form .table .table-row{
+	display: table-row;
+	padding:10px;
+}
+.form .table span{
+	display: table-cell;
+	vertical-align: top;
+	padding: 3px;
+	height: 30px;
+}
+.form .table-row span:first-child{
+	text-align: right;
+}
+.form .table textarea{
+	width: 200px;
+	height: 50px;		
+}
+.form #sum{
+	width: 100%;
+	height: 50px;
+	color: white;
+	background:#051FE7;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+footer p{
+	width: 100%;
+	height: 70px;
+	line-height: 70px;
+    text-align: center;
+	background: #000000;
+	color: white;
+	clear: both;
+	
+}
+footer p img{
+	width: 19px;
+	vertical-align:middle;
+}
+.ts{
+	color: #ACACAC;
+	font-size: 13px;
+}
+.zhuye{
+	float: left;
+	width: 67%;
+	overflow: hidden;
+	
+}
+.form{
+	float: right;
+	width: 350px;
+	margin: 0 10px;
+}

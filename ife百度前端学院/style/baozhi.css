@@ -1,0 +1,353 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	width: 980px;
+	height:1386px;
+	margin: auto;
+	border: 1px solid #FDD3D4;
+	background:white;
+}
+header{
+	border-bottom:2px solid #938e8c;
+	width: 892px;
+	height: 61px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+header .logo{
+	background: #B02F31;
+	width: 110px;
+	height: 100%;
+	float: left;
+}
+header .logo p{
+	line-height: 102px;
+	text-indent: 9px;
+	color: white;
+	font-size: 12px;
+	font-family: SimHei;
+}
+header>p{
+	float: right;
+	line-height: 102px;
+	font-size: 12px;
+	color: #d45d5c;
+	font-family: SimHei;
+}
+article{
+	width: 892px;
+	margin: auto;
+}
+article .shang{
+	height: 301px;
+	width: 100%;
+	margin: 20px 0;
+}
+article .shang .shangzuo{
+	height: 301px;
+	width: 641px;
+	position: relative;   
+	float: left;
+}
+article .shang .tu1{
+	width: 641px;
+	height: 301px;
+}
+article .shang .tu2{
+	position: absolute;
+	top: 0;
+	left: 0;
+	
+}
+article .shang .tu3{
+	position: absolute;
+	top: 0;
+	right: 0; 
+}
+article .shang .celan{
+	float: right;
+	width: 203px;
+	height: 301px;
+	border-top:2px solid #938e8c;
+}
+article .shang .celan h2{
+	font-size: 24px;
+	color: #000;
+	font-family: Microsoft YaHei;
+	line-height: 27px;
+	text-decoration: underline;
+	text-transform:capitalize;
+	font-variant: small-caps;
+	margin:5px 0 0 0 ;
+}
+article .shang .celan p#first{
+	font-size:10px;
+	color: #676767;
+	font-family:GB2312KaiTi;
+	line-height: 10px;
+}
+article .shang .celan #qibai{
+	font-size:116px;
+	margin-left: -13px;
+	color: #75b86b;
+	font-family: Microsoft YaHei;
+	font-style: italic;
+}
+article .shang .celan .san2{
+	font-size:55px;
+	color: #cc8091;
+	font-family: Microsoft YaHei;
+	float: left;
+}
+article .shang .celan .css{
+	float: left;
+	margin-top: 32px;
+	margin-left:2px;
+	line-height: 14px;
+}
+article .shang .celan p:first-child{
+	font-size: 21px;
+	color: #cc8091;
+	font-family:Microsoft YaHei;
+}
+article .shang .celan p:last-child{
+	font-size: 12px;
+	color: #767777;
+	font-family:Microsoft YaHei;
+}
+article .zhong{
+	width:100%;
+	overflow: auto;
+	margin: 20px 0;
+padding: 20px 0;
+}
+article .zhong .w1,.w2,.w3{
+	margin-right:40px;
+	width: 240px;
+	float: left;
+}
+article .zhong .w1 h1{
+	font-size:16px;
+	color: #418c59;
+	font-family:Microsoft YaHei;
+	font-weight: bold;
+	text-decoration:underline;
+}
+article .zhong .w2 h1{
+	font-size:16px;
+	color: #d2994f;
+	font-family:Microsoft YaHei;
+	font-weight: bold;
+	text-decoration:underline;
+}
+article .zhong .w3 h1{
+	font-size:16px;
+	color: #cc7680;
+	font-family:Microsoft YaHei;
+	font-weight: bold;
+	text-decoration:underline;
+}
+article .zhong p{
+	font-size: 12px;
+	color: #767777;
+	font-family: SimSun;
+	letter-spacing: 7px;
+}
+article .zhong .how{
+	font-size: 12px;
+	color: #231815;
+	line-height: 16px;
+	font-family:Microsoft YaHei;
+	opacity: 30%;
+	margin-top: 45px;
+	
+}
+article .zhong .how span{
+	font-size:12px;
+	color: #cd4148;
+    font-style: italic;
+	letter-spacing: 4px;	
+}
+.xia{
+	width: 100%;
+	margin: 20px 0;
+	overflow: auto;
+	padding: 20px 0 0 0;
+}
+.xia .zuo{
+	width: 415px;
+    float:left;
+}
+.xia .you {
+	width: 458px;
+	float: right;
+}
+.xia .zuo .zuobt{
+	width: 100%;
+	border-bottom: 2px solid #11456b;
+	padding: 0 0 10px 0;
+}
+.xia .zuo .zuobt h1 span{
+	font-size: 72px;
+	color: #f5e327;
+	font-family: SimHei;
+	font-weight: bold;
+	font-style: oblique;
+	margin-right: 35px;
+}
+.xia .zuo .zuobt h1{
+	font: bold 42px SimHei ;
+	color: #11456b;
+}
+.xia .zuo .zuobt h2{
+	font:bold  33px SimHei;
+	color: #11456b;
+}
+.xia .zuo .zuozw{
+	padding: 10px 0;
+	width: 100%;
+	overflow: auto;
+}
+.xia .zuo .zuozw p span{
+	font:70px/71px "Microsoft YaHei";
+	color: #f5e327;
+	float:left;
+	margin-right: 8px;
+}
+.xia .zuo .zuozw p{
+	font: 12px/16px SimHun;
+	color: #767777;
+}
+.xia .zuo .zuozw p img{
+	float: right;
+	margin: 20px 0 10px 10px;
+}
+.xia .you .youshang{
+	width: 458px;
+	height:275px; 
+	position: relative;
+	overflow: hidden;
+}
+.xia .you .youshang img{
+	height: 275px;
+	width: auto;
+}
+.xia .you .youshang .yinying{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	background:rgba(86,78,79,0.6);
+	width: 458px;
+	height: 61px;
+}
+.xia .you .youshang .yinying p{
+	font: 26px/61px "Microsoft YaHei";
+	color: #fff;
+	letter-spacing: 140%;
+	vertical-align: bottom;
+}
+.xia .you .youshang .yinying p span{
+	font:oblique 12px "Microsoft YaHei";
+	color: #72b16a;
+	padding-left: 10px;
+}
+.xia .you .youshang .yinying #kong{
+	float:left;
+	background-color: #72b16a;
+	height:44px;
+	width: 3px;
+	margin: 8px 10px 8px 40px;
+}
+.xia .you .youxia{
+	width: 100%;
+	height: 318px;
+	background:#EEEED6;
+	margin-top: 34px;
+}
+.xia .you .youxia .youxiashang{
+	position: relative;
+	margin: 10px 20px 16px 30px;
+	padding-top: 20px;
+}
+.xia .you .youxia .youxiashang p{
+	font:16px/40px SimSun;
+	color: #5a5b5b;
+	vertical-align: bottom;
+}
+.xia .you .youxia .youxiashang p em{
+	font:oblique 14px/20px SimSun;
+}
+.xia .you .youxia .youxiashang img{
+	position: absolute;
+	left: -13px;
+	top: 35px;
+}
+.xia .you .youxia .youxiahong{
+	background:#D55D5C;
+	float: left;
+	width: 260px;
+	height: 160px;
+}
+.xia .you .youxia .youxiahong p:first-child{
+	font:110px "Microsoft YaHei";
+	color: #fff;
+	float: left;
+	line-height: 86px;
+	margin-top: 37px;
+	padding: 0 5px;
+    border-right: 2px solid #fff;
+}
+.xia .you .youxia .youxiahong p{
+    display: inline-block;
+	font: oblique 21px/24px "SimSun";
+	color: #fff;
+	margin: 37px 0 0 6px;
+}
+.xia .you .youxia .youxiahong p:last-child{
+	font: 12px "SieHei";
+	color: #fff;
+	margin: 5px 0 0 8px;
+}
+.xia .you .youxia .youxiayou {
+	margin: 10px 0 0 10px;
+	padding-top: 10px;
+	float: right;
+	width: 180px;
+    height: 140px;
+	font: oblique 14px "SimHei";
+	color: #5A5B5B;
+	line-height: 16px;
+	text-indent: 3em;
+	position: relative;
+	overflow: hidden;
+}
+.xia .you .youxia .youxiayou .qidian{
+	font: normal 72px/36px "SimHei";
+	color: #d45d5c;
+    letter-spacing: -54px;
+	position:absolute;
+	left: -97px;
+	top: 17px;
+}
+.xia .you .youxia .youxiayou .zhongdian{
+		font: normal 72px/36px "SimHei";
+	color: #d45d5c;
+    letter-spacing: -54px;
+	position:absolute;
+	left: 86px;
+	top: 100;
+}
+footer{
+     width:892px;
+	border: 1px solid #938e8c;
+	margin: auto;
+}
+footer p{
+	float: right;
+	font: 12px "SimHei";
+	color: #d45d5c;
+}
